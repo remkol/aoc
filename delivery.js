@@ -1,6 +1,6 @@
 const { upload } = require("./uploadFile");
 
-var moves = upload('moves.txt');
+var moves = upload('data/moves.txt');
 
     // var moves = '^v^v^v^v^v'; 
 

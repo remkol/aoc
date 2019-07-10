@@ -1,6 +1,6 @@
 const { upload } = require("./uploadFile");
 
-    var str = upload('input.txt');
+    var str = upload('data/input.txt');
 
     var floorLevel = 0;
     var reachedBasement = 0;

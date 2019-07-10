@@ -23,7 +23,7 @@ function countRibbon(dim1, dim2, dim3) {
     var totalPaperArea = 0;
     var totalRibbon = 0;
 
-    var textByLine = upload('boxes.txt').split("\n");
+    var textByLine = upload('data/boxes.txt').split("\n");
 
     textByLine.forEach(item => {
 
