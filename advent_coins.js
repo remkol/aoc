@@ -15,10 +15,6 @@ var input = 'bgvyzdsv';
 
 do {
 
-    // var concat = input + secretNumber;
-
-    // var test = md5( concat );
-
     secretNumber++;
 
     zeroString = md5( input + secretNumber ).slice(0,6);
